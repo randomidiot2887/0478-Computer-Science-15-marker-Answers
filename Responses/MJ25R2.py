@@ -35,6 +35,6 @@ while True:
             r = float(input("Input radius: - "))
             v = round(Sphere(r), 2)
             print(f"Volume of Sphere is {v}")
-        case 'S':
+        case 'E':
             print("Exiting"); break
         case _: print("Invalid Input")
