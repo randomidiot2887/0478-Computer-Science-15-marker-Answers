@@ -54,3 +54,8 @@ SSYYRZ.py
 - **Note:** February/March session papers are only released for **Region 2** — so don’t expect Region 1 or 3 files for FM sessions.
 
 ---
+
+## Missing questions
+ If your thinking i missed a question, please look inside **[here](https://github.com/randomidiot2887/0478-Computer-Science-15-marker-Answers/blob/main/unanswerdquestions.md)**, before reporting it as an issue.
+ > Ill respond and attempt those questions whenever i feel like it. as i do this during my free time.
+ > btw, please check out my other stuff, if your intrested
