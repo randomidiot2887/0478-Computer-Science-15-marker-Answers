@@ -8,14 +8,17 @@ Each competitor receives a score out of 100 for each event. These scores are man
 Medals are awarded to the competitor or the competitors who have:
 - the highest points scored in each of the five events
 - the highest total points scored for all five events.
+
 The one-dimensional (1D) array Points[] stores the total number of points scored for each
 competitor.
+
 __Write a program that meets the following requirements:__
 - takes as input, valid scores (between 0 and 100), for each competitor in each of the five events
 - calculates the highest points scored for each event
 - outputs the names of the competitors who receive a medal for the highest points scored
 - calculates the highest total points scored for the five events
 - outputs the names of the competitors with the highest total points scored for the five events.
+
 You must use **pseudocode or program code** and add comments to explain how your code works.
 You do not need to declare any arrays or variables.
 All inputs and outputs must contain suitable messages.
@@ -27,8 +30,10 @@ The two-dimensional (2D) array `Video[]` is used to store, for each video item, 
 `Video[1,2]` is "digital download"
 `Video[1,3]` is "2015"
 `Video[1,4]` is "DG276"
+
 The two-dimensional (2D) array `Results[]` is used to store the results of a search to find a specific video. The search uses the video title, and if the video is found, its data is copied from the array `Video[]` to the array `Results[]`. The search continues and if other videos with the same title are found, this data is also copied to the array `Results[]`. 
 The search ends when the end of the data is reached.
+
 __Write a program that meets the following requirements:__
 - The video library array needs to be initialised with the null string (""), allowing for up to 10 000 records. The array `Results[]` must be initialised before every search with the null string and must be able to hold up to 20 search results with the same title.
 - Create a menu to add a new video to the library to search for an existing video by title, or to stop, with validation of the input.
@@ -42,6 +47,7 @@ __Write a program that meets the following requirements:__
 - Output the results from the array `Results[]`
 - If the video title is not found, output a suitable message.
 - The system returns to the menu after completing the input or the output, until the user chooses to stop.
+
 You must use **pseudocode or program code** and add comments to explain how your code works.
 You do not need to declare any arrays, variables or constants. You may assume that this has already been done.
 All inputs and outputs must contain suitable messages.
