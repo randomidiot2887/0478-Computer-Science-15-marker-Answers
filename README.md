@@ -37,7 +37,6 @@ SSYYRZ.py
 
 | Paper Code         | File Name    |
 |--------------------|--------------|
-| 0478/22/M/J/25     | `MJ25R2.py`  |
 | 0478/23/O/N/23     | `ON23R3.py`  |
 
 ### Explanation:

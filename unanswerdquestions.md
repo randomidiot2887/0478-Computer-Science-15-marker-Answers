@@ -1,43 +1,22 @@
 # Question 1
 
-__**May June 2025 Region 1**__
-
-The one-dimensional (1D) array `CompetitorName[]` contains the names of 25 competitors in a
-tournament that includes five events.
-Another two-dimensional (2D) array `CompetitorScore[]` contains the points scored by each
-competitor in the five events. The first dimension of this array contains the index of the competitor
-from `CompetitorName[]` and the second dimension contains their scores.
-Each competitor receives a score out of 100 for each event. These scores are manually entered into `CompetitorScore[]`
-Medals are awarded to the competitor or the competitors who have:
-- the highest points scored in each of the five events
-- the highest total points scored for all five events.
-
-The one-dimensional (1D) array Points[] stores the total number of points scored for each
-competitor.
-
-__Write a program that meets the following requirements:__
-- takes as input, valid scores (between 0 and 100), for each competitor in each of the five events
-- calculates the highest points scored for each event
-- outputs the names of the competitors who receive a medal for the highest points scored
-- calculates the highest total points scored for the five events
-- outputs the names of the competitors with the highest total points scored for the five events.
-
-You must use **pseudocode or program code** and add comments to explain how your code works.
-You do not need to declare any arrays or variables.
-All inputs and outputs must contain suitable messages.
-
-# Question 2
-
 __**May June 2025 Region 3**__
 
 A collector needs a video library system for a collection of videos stored on 4K Blu-ray discs, standard Blu-ray discs, DVD, or as digital downloads. 
-The two-dimensional (2D) array `Video[]` is used to store, for each video item, the title, the format of the video (4K Blu-ray disc, standard Blu-ray disc, DVD, or digital download), the year it was released stored as a string and a storage code to represent where the video can be found in the collection, for example:
-`Video[1,1]` is "Macbeth"
-`Video[1,2]` is "digital download"
-`Video[1,3]` is "2015"
-`Video[1,4]` is "DG276"
 
-The two-dimensional (2D) array `Results[]` is used to store the results of a search to find a specific video. The search uses the video title, and if the video is found, its data is copied from the array `Video[]` to the array `Results[]`. The search continues and if other videos with the same title are found, this data is also copied to the array `Results[]`. 
+The two-dimensional (2D) array `Video[]` is used to store, for each video item, the title, the format of the video (4K Blu-ray disc, standard Blu-ray disc, DVD, or digital download), the year it was released stored as a string and a storage code to represent where the video can be found in the collection, for example:
+
+- `Video[1,1]` is "Macbeth"
+- `Video[1,2]` is "digital download"
+- `Video[1,3]` is "2015"
+- `Video[1,4]` is "DG276"
+
+The two-dimensional (2D) array `Results[]` is used to store the results of a search to find a specific video. 
+
+The search uses the video title, and if the video is found, its data is copied from the array `Video[]` to the array `Results[]`. 
+
+The search continues and if other videos with the same title are found, this data is also copied to the array `Results[]`. 
+
 The search ends when the end of the data is reached.
 
 __Write a program that meets the following requirements:__
@@ -54,6 +33,10 @@ __Write a program that meets the following requirements:__
 - If the video title is not found, output a suitable message.
 - The system returns to the menu after completing the input or the output, until the user chooses to stop.
 
-You must use **pseudocode or program code** and add comments to explain how your code works.
-You do not need to declare any arrays, variables or constants. You may assume that this has already been done.
+You must use **pseudocode or program code**
+
+You do not need to declare any arrays, variables or constants. 
+
+You may assume that this has already been done.
+
 All inputs and outputs must contain suitable messages.
